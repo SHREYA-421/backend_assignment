@@ -1,0 +1,13 @@
+$kind: http-request
+name: http://localhost:4000/api/posts
+description: ""
+url: http://localhost:4000/api/posts
+method: POST
+body:
+  type: json
+  content: |-
+    {
+      "title": "My First Backend Post",
+      "content": "I created this post using Node.js, Express and MongoDB."
+    }
+order: 4000

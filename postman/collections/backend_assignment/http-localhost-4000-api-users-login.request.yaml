@@ -1,0 +1,13 @@
+$kind: http-request
+name: http://localhost:4000/api/users/login
+description: ""
+url: http://localhost:4000/api/users/login
+method: POST
+body:
+  type: json
+  content: |-
+    {
+      "email": "student1@example.com",
+      "password": "Student123!"
+    }
+order: 1000
